@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+.banner{
+    text-align: right;
+    background-image: url('../images/banner/banner1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 1800px;
+    padding: 200px;
+    
+}
+.banner-title{
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+.banner-description{
+    font-size: 26px;
+    color: #444343;
+    padding-bottom: 30px;
+}
+.banner-btn{
+    color: rgb(249, 248, 248);
+    background-color: rgb(214, 120, 53);
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* failure section */
+.failure{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    padding: 160px 120px 50px;
+}
+.failure-title{
+    padding: 230px 620px 100px 50px;
+}
+.heading{
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.failure-description{
+    font-size: 26px;
+    padding-bottom: 25px;
+    color: #444343;
+}
+.list{
+    font-size: 26px;
+    color: #444343;
+    list-style: none;
+    
+}
+.mark{
+    color: green;
+}
+/* plan section */
+h3{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+.plan-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 160px;
+}
+.plan-head{
+    font-size: 25px;
+    padding-top: 25px;
+    
+
+}
+.plan-des{
+    color: #444343;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.part-all{
+    text-align: center;
+}
+/* image section */
+h4{
+    font-size: 25px;
+    padding-top: 120px;
+    color: aliceblue;
+}
+.picture{
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    background-blend-mode:luminosity;
+    margin: 80px 450px 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.call-btn{
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(93, 48, 9);
+    padding: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    height: 400px;
+}
+.icons{
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+}
+.form{
+    margin-top: 42px;
+}
+.future{
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+.image-head{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
